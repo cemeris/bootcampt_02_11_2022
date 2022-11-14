@@ -1,0 +1,49 @@
+body {
+  background: rgb(234, 234, 234);
+  margin: 0;
+}
+
+.menu_wrapper {
+  background: #fff;
+}
+
+.top_menu {
+  max-width:1172px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px;
+}
+
+
+.top_menu .logo {
+  display:flex;
+  margin-top:2px;
+}
+
+.top_menu nav {
+  display: flex;
+  align-items: center;
+}
+
+.top_menu nav a {
+  color: #033B4A;
+  margin-left: 31px;
+  padding:10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.top_menu nav .active {
+  color: #3A6CF1;
+}
+
+.top_menu nav .btn {
+  padding: 9px 39px;
+  background: #3A6CF1;
+  color: #fff;
+  border-radius: 22px;
+  line-height: 26px;
+  margin-left: 47px;
+}

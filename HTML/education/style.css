@@ -1,0 +1,40 @@
+body {
+  background: rgb(234, 234, 234);
+  margin: 0;
+}
+
+.menu_wrapper {
+  background: #5D2999;
+}
+
+.top_menu {
+  max-width:1172px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px;
+}
+
+
+.top_menu .logo {
+  display:flex;
+  margin-top:2px;
+}
+
+.top_menu nav {
+  display: flex;
+  align-items: center;
+}
+
+.top_menu nav a {
+  color: #FFFFFF;
+  margin-left: 31px;
+  padding:10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.top_menu nav .active {
+  color: rgb(152, 179, 251);
+}
