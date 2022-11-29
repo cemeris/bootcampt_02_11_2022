@@ -1,0 +1,21 @@
+.block {
+  width: 100px;
+  height:100px;
+  background:grey;
+  margin:10px 5px;
+}
+
+.small {
+  width: 30px;
+  height:30px;
+  background:rgb(211, 232, 91);
+  margin:10px 5px;
+  display:inline-block;
+  border: 1px solid grey;
+  text-align:center;
+  line-height:30px;
+}
+
+.red {
+  background: rgb(245, 75, 75);
+}
